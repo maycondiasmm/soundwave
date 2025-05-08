@@ -1,0 +1,441 @@
+body, html {
+    background-color: black;
+    color:white;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+   
+}
+section {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh; /* Altura total da tela */
+        padding: 0;
+        margin: 0;
+        background-color: #000; /* Se houver um fundo desejado */
+    
+    
+}
+
+@font-face {
+    font-family: TeachersStudent-Regular;
+    src: url(TeachersStudent-Regular.ttf);
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+   
+    background-color: black;
+   
+    margin:0px;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    
+
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    font-size: 20px;
+    color:green;
+    text-decoration: none;
+}
+.vinils {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.imagevinil {
+    max-width: 400px;
+    height: auto;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 2px solid green;
+    color:green;
+    background: none;
+    text-decoration: none;
+    background-color: black;
+}
+
+.btn:hover {
+   
+    color: rgb(255, 255, 255);
+    background-color: #28a745;
+}
+.about{
+    text-align: center;
+    font-family:TeachersStudent-Regular ;
+}
+h1 {
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.product {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    justify-items: flex-start ;
+    text-align: center; /* Centraliza o texto no item */
+    font-size: 14px; /* Ajuste o tamanho da fonte se os textos estiverem muito grandes */
+    min-width: 0; /* Garante que os itens se ajustem à largura disponível */
+}
+.space-grid{
+    display: flex;
+    flex-wrap: wrap; /* Permite que os produtos se ajustem em várias linhas */
+    justify-content: center; /* Centraliza os itens */
+    gap: 10px; /* Espaçamento entre os produtos */
+}
+.space-product{
+    background-color: rgb(0, 0, 0);
+    padding: 0px;
+    text-align: center;
+  
+ 
+    min-width: 0; /* Garante que os itens se ajustem à largura disponível */
+}
+.nossosdiscos {
+    text-align: center;
+}
+
+
+    /* Estilos básicos para os produtos */
+    .produto {
+        display: inline-block; /* Exibe os produtos lado a lado */
+        width: 200px; /* Largura do produto */
+        margin: 25px; /* Margem entre os produtos */
+        padding: 10px; /* Padding interno */
+        border: 1px solid #ccc; /* Bordas dos produtos */
+        text-align: center; /* Centraliza o texto */
+    }
+    #produtos {
+        display: none; /* Oculta a lista inicialmente */
+        align-items: center;
+        text-align: center;
+    }
+    #produtos-lista {
+        color: white;
+    }
+    section {
+        background-color: black;
+        color: white
+    
+    }
+   
+.container-button {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 50vh; /* Altura total da tela */
+}
+
+
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color:white;
+   
+   
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgb(100, 192, 100);
+    color:white;
+    border-radius: 4px;
+    border-color: green;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+    }
+
+.formlogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Altura total da tela para centralização */
+    padding: 0px;
+    background-color: #000; /* Cor de fundo da seção */
+    text-align: center; /* Centraliza o texto */
+    margin-left: 20px;
+    
+}
+
+.formlogin form {
+    background: black; /* Fundo escuro do formulário */
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px; /* Limita a largura em telas maiores */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.formlogin form label {
+    color:white; /* Cor do texto */
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+    
+}
+
+.formlogin form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc; /* Cor da borda padrão */
+    border-radius: 4px;
+    box-sizing: border-box;
+    color:black;
+    background-color: #80cb91;
+    color: white;
+   
+}
+
+.formlogin form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000; /* Fundo preto para o botão */
+    color: #fff; /* Cor do texto branco */
+    border: 2px solid #28a745; /* Borda verde */
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Transição suave */
+}
+
+.formlogin form button:hover {
+    background-color: #28a745; /* Fundo verde ao passar o mouse */
+    border-color: #218838; /* Borda mais escura ao passar o mouse */
+    color: white;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os produtos se ajustem em várias linhas */
+    justify-content: center; /* Centraliza os itens */
+    gap: 10px; /* Espaçamento entre os produtos */
+}
+h2  {
+      font-size: 90px;
+      font-family: TeachersStudent-Regular;
+      text-align:center;
+      margin-top: 30px;
+      margin-left: 0px;
+      font-size:60px;
+      color: white;
+    }
+
+    
+.formlogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px; /* Para não ficar muito largo em telas menores */
+    background: black; /* Fundo do formulário */
+    padding: 20px;
+    border-radius: 8px;
+   
+   margin-top: 0px;
+}
+
+.formlogin form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaçamento entre os campos */
+    
+}
+
+.formlogin form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc; /* Cor da borda padrão */
+    border-radius: 4px;
+    box-sizing: border-box;
+    color:black;
+    background-color: #80cb91;
+   
+}
+
+
+button:hover {
+    background-color: #218838;
+    color: white;
+}
+.p-sobre {
+    font-size: 25px;
+    color: white;
+}
+.copy {
+    font-size: 30px;
+}
+.fab {
+   padding: 10px;
+    font-size: 40px;
+     color: white;
+}
+
+.imagensvinilsabout, .social-icons, .product-grid {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os produtos se ajustem em várias linhas */
+    justify-content: center; /* Centraliza os itens */
+    gap: 20px; /* Espaçamento entre os produtos */
+}
+
+/* Ajuste para o menu */
+
+
+/* Ajuste para o menu */
+header .navbar ul li a {
+    padding: 5px 10px; /* Diminuir o espaçamento interno */
+    font-size: 14px; /* Reduzir o tamanho do texto */
+}
+
+@media (max-width: 768px) {
+    header .navbar ul li a .navbar ul {
+        padding: 8px 12px; /* Reduzir mais ainda o espaçamento em telas pequenas */
+        font-size: 10px; /* Tamanho de fonte menor para dispositivos móveis */
+    }
+}
+/* Texto padrão maior */
+p, .historiavinil {
+    font-size: 20px; /* Tamanho maior do texto para melhor legibilidade */
+    line-height: 1.6; /* Altura da linha para espaçamento entre as linhas */
+    margin-top: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+h1, .tituloloja {
+    font-size: 60px; /* Tamanho maior do título */
+    text-align: center;
+    
+        
+      font-family: TeachersStudent-Regular;
+     
+    }
+
+
+
+/* Ajustes para telas menores */
+@media (max-width: 768px) {
+    p, .historiavinil {
+        font-size: 16px; /* Fonte menor para dispositivos móveis */
+        padding: 0px;
+        margin: 0px;
+    }
+
+    h1, .tituloloja {
+        font-size: 28px; /* Título um pouco menor em telas pequenas */
+    }
+}
+.vinils img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho da tela */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.vinils a.btn {
+    font-size: 16px; /* Tamanho de fonte do botão */
+    padding: 10px 20px;
+}
+
+/* Ajustes para dispositivos menores */
+@media (max-width: 768px) {
+    .vinils a.btn {
+        font-size: 14px; /* Reduz o tamanho do botão em telas pequenas */
+        padding: 8px 16px;
+    }
+}
+main, section {
+    padding: 20px; /* Espaçamento em torno do conteúdo */
+    max-width: 1200px; /* Limite de largura para evitar textos muito largos em telas grandes */
+    margin: 0 auto; /* Centraliza o conteúdo */
+}
+
+/* Para telas pequenas */
+@media (max-width: 768px) {
+    main, section {
+        padding: 10px; /* Menos espaçamento para dispositivos menores */
+        margin-top: 0px;
+    }
+}
+.mensagem-erro {
+    margin-top: 10px;
+    color: #ff0000; /* Vermelho para erros */
+    font-size: 14px;
+    text-align: center;
+    font-size: 20px;
+}
+form input {
+    background-color: #80cb91; /* Cor de fundo verde */
+    color: black; /* Cor do texto preta */
+    border: 2px solid #ccc; /* Mantém a borda cinza */
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form input::placeholder {
+    color: black; /* Cor do texto do placeholder (texto de exemplo) em preto */
+}
+
+
+
+
+
+
+
+
